@@ -1,0 +1,5 @@
+qualities,     20,     20,    260,     6, "   lblQualNew" + qualities, 32, "AddAnother",     pQualities
+int times, int sx, int sy, int px, int py, string tagName, int separation, string imagename, Panel pane
+
+260,6,32*qualities,20,20,lblQualNew" + qualities,"AddAnother", pQualities, , false, true
+int _px, int _py, int _seperator, int _sx, int _sy, string _name, string _imagename, Panel _pane, EventHandler _event, bool _goX, bool _goY

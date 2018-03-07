@@ -1,0 +1,27 @@
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.exe.config
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.exe.config
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.exe
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.pdb
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.csprojResolveAssemblyReference.cache
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.CharacterSheet.resources
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.Properties.Resources.resources
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.csproj.GenerateResource.Cache
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.exe
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.pdb
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.StartStat.resources
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.StatIncrease.resources
+C:\Crap Inserted\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.AlignmentWheel.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.exe.config
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.exe
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\bin\Debug\CharacterSheet.pdb
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.AlignmentWheel.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.CharacterSheet.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.Properties.Resources.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.StartStat.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.StatIncrease.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.csproj.GenerateResource.Cache
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.exe
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.pdb
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.csprojResolveAssemblyReference.cache
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.SpellInfo.resources
+D:\Allan\Ramoun\Programming\Hjemme Projekter\CharacterSheet\CharacterSheet\obj\Debug\CharacterSheet.SpellsKnownAdd.resources

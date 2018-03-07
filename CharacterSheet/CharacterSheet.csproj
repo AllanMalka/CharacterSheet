@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE0216E1-5009-41AE-84D3-50761B88E170}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CharacterSheet</RootNamespace>
+    <AssemblyName>CharacterSheet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlignmentWheel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlignmentWheel.Designer.cs">
+      <DependentUpon>AlignmentWheel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharacterSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterSheet.Designer.cs">
+      <DependentUpon>CharacterSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Container\Feats.cs" />
+    <Compile Include="Container\Spells.cs" />
+    <Compile Include="DNDClasses\Barbarian.cs" />
+    <Compile Include="DNDClasses\Bard.cs" />
+    <Compile Include="DNDClasses\Fighter.cs" />
+    <Compile Include="Other\Armor.cs" />
+    <Compile Include="Other\Feat.cs" />
+    <Compile Include="Other\Spell.cs" />
+    <Compile Include="Other\Weapon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpellCaster.cs" />
+    <Compile Include="SpellInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellInfo.Designer.cs">
+      <DependentUpon>SpellInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellsKnownAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellsKnownAdd.Designer.cs">
+      <DependentUpon>SpellsKnownAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartStat.Designer.cs">
+      <DependentUpon>StartStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatIncrease.Designer.cs">
+      <DependentUpon>StatIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UniversalMethods.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AlignmentWheel.resx">
+      <DependentUpon>AlignmentWheel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharacterSheet.resx">
+      <DependentUpon>CharacterSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SpellInfo.resx">
+      <DependentUpon>SpellInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellsKnownAdd.resx">
+      <DependentUpon>SpellsKnownAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartStat.resx">
+      <DependentUpon>StartStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatIncrease.resx">
+      <DependentUpon>StatIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DNDPrestigeClasses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\120px-Fairytale_button_add.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add-button20px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

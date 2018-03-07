@@ -1,0 +1,17 @@
+_bab:	Good	Average		Poor
+
+_saves:	Good	Poor
+
+_hdie:	12	10	8	6	4
+
+_skillPoints:	8	6	4	2
+
+_skills: Appraise, Autohypnosis, Balance, Bluff, Climb, Concentration, Control Shape, Craft, Decipher Script, Diplomacy, Disable Device, Disguise, Escape Artist, Forgery, Gather Information, Handle Animal, Heal, Hide, Intimidate, Jump, Knowledge(Arcana), Knowledge(Architecture and Engineering), Knowledge(Dungeoneering), Knowledge(Geography), Knowledge(History), Knowledge(Local), Knowledge(Nature), Knowledge(Nobility and Royality), Knowledge(Psionics), Knowledge(Religion), Knowledge(The Planes), Listen, Move Silently, Open Lock, Perform, Psicraft, Profession, Ride, Search, Sense Motive, Sleight of Hand, Speak Language, Spellcraft, Spot, Survival, Swim, Tumble, Use Magic Device, Use Psionic Device, Use Rope
+
+_armorProf:	None	Light Armor Proficiency		Medium Armor Proficiency	Heavy Armor Proficiency
+
+_shieldProf:	None	Shield Proficiency	Tower Shield Proficiency
+
+_weaponProf:	Simple Weapon Proficiency	Martial Weapon Proficiency	Bard Weapon Proficiency	Druid Weapon Proficiency	Monk Weapon Proficiency		Rogue Weapon Proficiency	Wizard Weapon Proficiency
+
+_listQualities:		List all special qualities

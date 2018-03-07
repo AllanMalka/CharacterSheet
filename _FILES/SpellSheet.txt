@@ -1,0 +1,22 @@
+Preparing
+input field med tal der minuser antallet af amount
+skal kunne gemme preprared sheets	other knap
+
+Spontaneus
+knap der minuser amout
+refresh knap				refresh knap
+
+
+Divine
+Ingen select spells known, vis alle spells de er tilegnet til.
+
+Clerics
+skal have begrænset efter deres alignment
+
+
+Verbal
+Somatic
+Material
+Focus
+Divine Focus
+XP cost

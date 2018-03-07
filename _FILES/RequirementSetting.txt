@@ -1,0 +1,15 @@
+feats, 			list<Feat>			
+stats, 			keyvaluepair string int		Done
+bab, 			keyvaluepair string int		Done
+level, 			int				Done
+skill, 			keyvaluepair string int		
+class feature, 		string				Done
+class, 			string				Done
+spellcaster		int				
+
+
+Spellcaster
+Få den til at gå igennem panels og finde noget med "Spells". Er den der så skal den finde total level og vurdere der.
+
+Skill
+Gå ind i skill tappen og finde listen af skills. 

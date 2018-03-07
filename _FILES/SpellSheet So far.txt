@@ -1,0 +1,11 @@
+Alle names skal have +{class} til sidst
+
+
+
+Buttons i panel:
+button used
+location: 2;35		hver ny 35+32 hvis level tilføjet +36
+image: +
+button info
+location: 790;35		hver ny 35+32 hvis level tilføjet +36
+image: ?

@@ -1,0 +1,22 @@
+max		&
+pr level	>
+break after 	|
+beyond		?
+
+
+public Spell SpellDescription(int _level, Spell _spell)
+
+string res = ""
+int max = _spell.where(after & +2).toint()
+string trim = _spell(trim after |)
+int prlevel = _spell.where(after > +2).toint()
+
+int final = 0
+
+if(max < _level)
+final = (prlevel/_level)
+else
+final = max
+
+
+return res = trim + final

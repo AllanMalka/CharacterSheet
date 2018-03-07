@@ -1,0 +1,24 @@
+string Name
+List<string> School
+List<string> Subschool
+List<string> Descriptor
+List<KeyValuePair<int, string>> ClassAndLevel
+List<string> Components
+string CastingTime
+string Range
+string TarEffAer
+string Duration
+string SavingThrow
+bool SpellResistance
+string Description
+string ShortDescription
+bool isHarmless
+bool onlyObject
+
+
+Verbal
+Somatic
+Material
+Focus
+Divine Focus
+XP cost

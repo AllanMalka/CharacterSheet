@@ -1,0 +1,112 @@
+  private void LabelSpellsKnownCreator(string _value, string _lblname, Panel _pane, int _px, int _py, bool _autosize, int _fSize, BorderStyle _bstyle, int _lh, int _lw)
+        {
+            Label lbl = new Label();
+            lbl.Location = new Point(_px, _py);
+            lbl.Text = _value;
+            lbl.AutoSize = _autosize;
+            if (!_autosize)
+            {
+                lbl.Height = _lh;
+                lbl.Width = _lw;
+            }
+            lbl.Name = _lblname;
+            if (_fSize > 0)
+            {
+                lbl.Font = new Font(Font.FontFamily, _fSize);
+            }
+            lbl.BorderStyle = _bstyle;
+            _pane.Controls.Add(lbl);
+        }
+        private void LabelSpellsKnownCreatorRepeater(string _value, string _lblname, Panel _pane, int _px, int _py, bool _autosize, int _fSize, BorderStyle _bstyle, int _lh, int _lw, int _seperator, ContentAlignment _placement, bool _goY, bool _goX)
+        {
+            Label lbl = new Label();
+            int newX = _px;
+            if (_goX)
+                newX += _seperator;
+            int newY = _py;
+            if (_goY)
+                newY += _seperator;
+            lbl.Location = new Point(newX, newY);
+            lbl.Text = _value;
+            lbl.AutoSize = _autosize;
+            if (!_autosize)
+            {
+                lbl.Height = _lh;
+                lbl.Width = _lw;
+            }
+            lbl.Name = _lblname;
+            lbl.TextAlign = _placement;
+            if (_fSize > 0)
+            {
+                lbl.Font = new Font(Font.FontFamily, _fSize);
+            }
+            lbl.BorderStyle = _bstyle;
+            _pane.Controls.Add(lbl);
+        }
+        private void ButtonSpellsKnownCreatorRepeater(int _px, int _py, int _seperator, int _sx, int _sy, string _name, string _imagename, Panel _pane, EventHandler _event)
+        {
+            var resources = Properties.Resources.ResourceManager;
+
+            Button but = new Button();
+            but.Location = new Point(_px, _py + _seperator);
+            but.Size = new Size(_sx, _sy);
+            but.Name = _name;
+            but.Cursor = Cursors.Hand;
+            but.Text = "";
+            but.FlatStyle = FlatStyle.Flat;
+
+            try
+            {
+                if (!resources.GetObject(_imagename).Equals(null))
+                {
+                    but.FlatAppearance.BorderSize = 0;
+                    but.Image = (Image)resources.GetObject(_imagename);
+                    but.Image = ((Image)(resources.GetObject(_imagename)));
+                }
+                else
+                {
+                    but.FlatAppearance.BorderSize = 1;
+                    but.FlatAppearance.BorderColor = Color.Red;
+                }
+            }
+            catch (Exception e)
+            {
+                but.FlatAppearance.BorderSize = 1;
+                but.FlatAppearance.BorderColor = Color.Blue;
+            }
+
+            but.Click += _event;
+
+            _pane.Controls.Add(but);
+        }
+       
+        private string ComponentGetter(string _component)
+        {
+            string res = "";
+            string temp = _component;
+            if (temp.Contains(":"))
+                temp = _component.Remove(_component.IndexOf(":"));
+            switch (temp)
+            {
+                case "Verbal": res += "V"; break;
+                case "Somatic": res += "S"; break;
+                case "Material": res += "M"; break;
+                case "Focus": res += "F"; break;
+                case "Divine Focus": res += "DF"; break;
+                case "XP cost": res += "XP"; break;
+                default:
+                    break;
+            }
+            return res;
+        }
+        private string SpellResistanceConverter(bool _isresistance)
+        {
+            string res = "-";
+
+            if (_isresistance)
+            {
+                res = "Y";
+            }
+
+            return res;
+        }
